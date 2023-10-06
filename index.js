@@ -5,4 +5,6 @@ function createFunction() {
     return multiplyBy2;
 }
 
-const generatedFunc = generatedFunc();
+const generatedFunc = createFunction();
+// eslint-disable-next-line no-unused-vars
+const result = generatedFunc(6); // 12
