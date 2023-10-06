@@ -1,0 +1,23 @@
+{
+  "name": "currying",
+  "version": "1.0.0",
+  "description": "- Functions can define functions  return the inner function and it will \"remember\" the scope",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tommydemian/currying.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tommydemian/currying/issues"
+  },
+  "homepage": "https://github.com/Tommydemian/currying#readme",
+  "devDependencies": {
+    "eslint": "^8.51.0"
+  }
+}

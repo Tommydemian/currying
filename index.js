@@ -1,7 +1,8 @@
-function makeAdjectifier(adjective) {
-    return function(noun) {
-        return adjective + ' ' + noun
+function createFunction() {
+    function multiplyBy2(num) {
+        return num * 2;
     }
+    return multiplyBy2;
 }
 
-const coolify = makeAdjectifier('cool')
+const generatedFunc = generatedFunc();
